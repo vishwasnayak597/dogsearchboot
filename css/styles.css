@@ -1,0 +1,104 @@
+#title{
+    background-color:#e8505b;
+    color: white;
+}
+
+h1{
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    }
+.container-fluid
+{
+    padding: 3% 15% 8%;
+}
+body{
+    font-family: Montserrat;
+}
+.navbar{
+    padding: 0 0 4.15rem;
+}
+.nav-item{
+    padding:0px 18px;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+
+}
+.navbar-brand
+{
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.image{
+    width: 60%;
+    transform: rotate(15deg);
+     position: absolute;
+     right: 30%;
+}
+.image1{
+    padding-bottom: 0.8rem;
+    width: 30%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-box
+{
+    text-align: center;
+}
+#testimonials
+{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+h2{
+    font-size: 3rem;
+}
+.t{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press
+{
+    background-color:#ef8172 ;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px; text-align: center;
+}
+.pccol{
+    padding:3% 2%;
+}
+#cta{
+    background-color:#e8505b;
+    color: white;
+    padding: 7% 15%; text-align: center;
+}
+.ct{font-family: 'Montserrat-Black'; font-size: 3.5rem; line-height: 1.5;}
+#footer{
+    padding: 7% 15%;
+}
+@media(max-width:1050px)
+{  /* when screen size becomes less than 1028px , tilting of img should be stopped*/
+    .image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title
+    {
+        text-align: center;
+    }
+}
